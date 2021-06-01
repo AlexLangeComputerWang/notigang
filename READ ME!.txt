@@ -1,0 +1,23 @@
+Hello one, hello all, and welcome to the Noti Gang!
+Using the Twitter API and developer status, you too, can bug literally everyone with notifications!
+
+HOW TO USE:
+	-1) GO INTO CMD IF ON WINDOWS, OR TERMINAL ON MAC, TYPE 'pip install tweepy' AND PRESS ENTER
+	0) SET UP YOUR API KEY! THIS IS AT THE TOP IN LINES 3-5. DO THIS OR IT WON'T WORK
+	1)Put the username of everyone you want to bug into the peopletonoti.txt file, one line at a time. (do NOT put the @, that breaks it)
+	2)Run the Python script
+
+NOTES:
+
+The script will only ever reply to someone's tweet once, and marks down the tweet id in the peoplenotified.txt file.
+It will get full fairly slowly, but if it ever gets too big, feel free to delete the contents.
+
+The script only grabs the most recent 20 tweets on your timeline, once every 2 minutes. If you are getting more than 20 tweets
+every 2 minutes (not like conversations or anything), you are CLEARLY following too many people, and need to calm down.)
+If you want to fiddle with these parameters, just mess with the count number in line 23, and the sleep number in line 40.
+The count is the number of tweets grabbed, and the sleep number is the number of seconds between each timeline pull.
+
+Thanks for checking out the script!
+Alex Lange
+
+MORGAN FOR THE LOVE OF GOD GET THE TWITTER API
